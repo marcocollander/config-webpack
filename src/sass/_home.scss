@@ -1,0 +1,10 @@
+.container {
+  font-size: 24px;
+}
+
+.image {
+  width: 30vw;
+  &__item {
+    width: 100%;
+  }
+}

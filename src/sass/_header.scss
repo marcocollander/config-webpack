@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  &__heading-secondary {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .header {
+    &__heading-primary {
+      font-size: 48px;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+    }
+
+    &__heading-secondary {
+      font-size: 42px;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+    }
+  }
+}
